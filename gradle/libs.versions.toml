@@ -13,6 +13,7 @@ minecraft-legacy = "1.16.5"
 [libraries]
 paper-api = { module = "com.destroystokyo.paper:paper-api", version.ref = "paper-api" }
 packetevents-spigot = { module = "com.github.retrooper:packetevents-spigot", version.ref = "packetevents" }
+
 junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
