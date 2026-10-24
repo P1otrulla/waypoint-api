@@ -1,0 +1,18 @@
+name: WaypointExample
+version: '${version}'
+main: dev.piotrulla.waypoint.example.WaypointExamplePlugin
+api-version: '1.16'
+author: PIOTRULLA
+depend: [packetevents]
+
+commands:
+  waypoint:
+    description: Waypoint API example commands
+    usage: /<command> <add|at|remove|clear|list|demo>
+    aliases: [wp]
+    permission: waypoint.example
+
+permissions:
+  waypoint.example:
+    description: Access to /waypoint example commands
+    default: op

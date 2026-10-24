@@ -1,0 +1,23 @@
+[versions]
+paper-api = "1.16.5-R0.1-SNAPSHOT"
+packetevents = "2.7.0"
+junit = "5.11.3"
+mockito = "5.14.2"
+shadow = "8.3.5"
+run-paper = "2.3.1"
+java-compile = "17"
+java-runtime-modern = "21"
+minecraft-modern = "1.21.4"
+minecraft-legacy = "1.16.5"
+
+[libraries]
+paper-api = { module = "com.destroystokyo.paper:paper-api", version.ref = "paper-api" }
+packetevents-spigot = { module = "com.github.retrooper:packetevents-spigot", version.ref = "packetevents" }
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+run-paper = { id = "xyz.jpenilla.run-paper", version.ref = "run-paper" }
